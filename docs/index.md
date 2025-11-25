@@ -12,7 +12,7 @@ show_sidebar: true
 
 ## Welcome
 
-This site provides a comprehensive comparison of popular reverse engineering and binary analysis tools. Whether you're analyzing malware, conducting security research, or performing software analysis, this guide will help you choose the right tool for your needs.
+This site provides a comprehensive comparison of popular reverse engineering and binary analysis tools. Whether you're analysing malware, conducting security research, or performing software analysis, this guide will help you choose the right tool for your needs.
 
 ## Quick Links
 
@@ -92,16 +92,16 @@ This comparison covers four major reverse engineering tools:
 
 Our analysis covers the following key areas:
 
-- ✅ **Native File Demangler** - Built-in symbol demangling
-- ✅ **String Analysis** - String extraction and analysis capabilities
-- ✅ **File Format Support** - Supported binary formats
-- ✅ **Library Recognition** - Signature and pattern matching
-- ✅ **Type Recovery Quality** - Reconstructing data types
-- ✅ **Decompilation Quality** - Readable high-level output
-- ✅ **Panic Infrastructure** - Error handling analysis
-- ✅ **Custom Calling Conventions** - Support for custom ABIs
-- ✅ **Scriptability** - Automation and extensibility
-- ✅ **Research Usage** - Academic and research suitability
+- **Native File Demangler** - Built-in symbol demangling
+- **String Analysis** - String extraction and analysis capabilities
+- **File Format Support** - Supported binary formats
+- **Library Recognition** - Signature and pattern matching
+- **Type Recovery Quality** - Reconstructing data types
+- **Decompilation Quality** - Readable high-level output
+- **Panic Infrastructure** - Error handling analysis
+- **Custom Calling Conventions** - Support for custom ABIs
+- **Scriptability** - Automation and extensibility
+- **Research Usage** - Academic and research suitability
 
 ## Getting Started
 
@@ -114,13 +114,10 @@ Our analysis covers the following key areas:
    - Is GUI or CLI preferred?
 
 2. **Review the Comparison**
-   - Check the [Feature Matrix](wiki/Feature-Matrix)
    - Read [Tool-Specific Guides](wiki/Tool-Comparison)
-   - See [Use Case Recommendations](wiki/Use-Cases)
 
 3. **Try the Tools**
    - Most tools offer free versions or trials
-   - See [Installation Guides](wiki/Getting-Started)
    - Follow [Best Practices](wiki/Best-Practices)
 
 ## Feature Highlights
@@ -193,15 +190,13 @@ Our analysis covers the following key areas:
 | **Scripting** | Python/C++/Rust | Python/Java | Python/IDC | Python/C/JS |
 | **UI Quality** | Excellent | Good | Good | CLI |
 
-See the [complete comparison table](wiki/Feature-Matrix) for detailed analysis.
-
 ## Contributing
 
 This comparison is based on practical experience, tool documentation, and community feedback. If you notice any inaccuracies or have updates:
 
-- [Open an Issue](https://github.com/your-username/Comparison-of-RE-Tools/issues)
-- [Submit a Pull Request](https://github.com/your-username/Comparison-of-RE-Tools/pulls)
-- [Join the Discussion](https://github.com/your-username/Comparison-of-RE-Tools/discussions)
+- [Open an Issue](https://github.com/yen-coder/Comparison-of-RE-Tools/issues)
+- [Submit a Pull Request](https://github.com/yen-coder/Comparison-of-RE-Tools/pulls)
+- [Join the Discussion](https://github.com/yen-coder/Comparison-of-RE-Tools/discussions)
 
 ## Resources
 
