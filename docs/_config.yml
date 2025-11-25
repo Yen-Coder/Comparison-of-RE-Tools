@@ -1,0 +1,71 @@
+# GitHub Pages Configuration for Comparison of Reverse Engineering Tools
+
+# Site settings
+title: "Comparison of Reverse Engineering Tools"
+description: "Comprehensive comparison of reverse engineering tools for binary analysis"
+author: "RE Tools Comparison Research"
+repository: "your-username/Comparison-of-RE-Tools"
+baseurl: "/Comparison-of-RE-Tools"
+url: "https://your-username.github.io"
+
+# Theme
+theme: jekyll-theme-cayman
+# Alternatives: minima, slate, architect, tactile, modernist, midnight, minimal, time-machine, leap-day
+
+# Markdown settings
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+# Collections
+collections:
+  wiki:
+    output: true
+    permalink: /wiki/:path/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+      show_sidebar: true
+  - scope:
+      path: "wiki"
+      type: "pages"
+    values:
+      layout: "default"
+      show_sidebar: true
+  - scope:
+      path: "index.md"
+    values:
+      show_sidebar: false
+
+# Plugins
+plugins:
+  - jekyll-relative-links
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Relative links
+relative_links:
+  enabled: true
+  collections: true
+
+# Exclude from processing
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - "*.gem"
+  - vendor
+
+# Include
+include:
+  - wiki
+
+# Sass/SCSS
+sass:
+  style: compressed
