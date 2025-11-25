@@ -23,7 +23,6 @@ This site provides a comprehensive comparison of popular reverse engineering and
 <ul>
 <li><a href="wiki/Home">Wiki Home</a></li>
 <li><a href="wiki/Tool-Comparison">Tool Comparison</a></li>
-<li><a href="wiki/Getting-Started">Getting Started</a></li>
 <li><a href="wiki/FAQ">FAQ</a></li>
 </ul>
 </div>
@@ -47,17 +46,6 @@ This site provides a comprehensive comparison of popular reverse engineering and
 <li><a href="wiki/Scriptability">Scriptability</a></li>
 </ul>
 </div>
-
-<div style="border: 1px solid #ddd; padding: 20px; border-radius: 8px;">
-<h3>📊 Analysis</h3>
-<ul>
-<li><a href="wiki/Feature-Matrix">Feature Matrix</a></li>
-<li><a href="wiki/Use-Cases">Use Cases</a></li>
-<li><a href="wiki/Performance-Comparison">Performance</a></li>
-<li><a href="wiki/Recommendations">Recommendations</a></li>
-</ul>
-</div>
-
 </div>
 
 ## Tools Compared
