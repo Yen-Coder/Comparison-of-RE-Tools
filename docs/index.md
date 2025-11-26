@@ -12,7 +12,7 @@ show_sidebar: true
 
 ## Welcome
 
-This site provides a comprehensive comparison of popular reverse engineering and binary analysis tools. Whether you're analysing malware, conducting security research, or performing software analysis, this guide will help you choose the right tool for your needs.
+This site provides a comprehensive comparison of popular reverse engineering and binary analysis tools. Whether you're analysing malware, conducting security research, or performing software analysis, this guide will help you choose the right tool for your needs. We will introduce some common patterns of Rust idioms here as well.
 
 ## Quick Links
 
